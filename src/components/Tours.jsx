@@ -2,14 +2,13 @@ import tibet from "../images/tour-1.jpeg"
 import java from "../images/tour-2.jpeg"
 import hong from "../images/tour-3.jpeg"
 import kenya from "../images/tour-4.jpeg"
+import Titles from "./Titles"
 
 function Tours() {
   return (
     <section className="section" id="tours">
-      <div className="section-title">
-        <h2>featured <span>tours</span></h2>
-      </div>
-
+      <Titles title='featured ' spanTitle='tours'/>
+      
       <div className="section-center featured-center">
         <article className="tour-card">
           <div className="tour-img-container">

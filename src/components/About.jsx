@@ -1,11 +1,10 @@
 import aboutimg from "../images/about.jpeg"
+import Titles from "./Titles"
 
 function About() {
   return (
     <section className="section" id="about">
-      <div className="section-title">
-        <h2>about <span>us</span></h2>
-      </div>
+      <Titles title='About ' spanTitle='us'/>
 
       <div className="section-center about-center">
         <div className="about-img">
