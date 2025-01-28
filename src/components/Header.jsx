@@ -1,5 +1,5 @@
 import logo from "../images/logo.svg";
-import { headerIcons, pageLinks } from "../data";
+import { pageLinks, socialIcons } from "../data";
 
 function Header() {
   return (
@@ -28,7 +28,7 @@ function Header() {
 
         <ul className="nav-icons">
         
-        {headerIcons.map(icons=>{
+        {socialIcons.map(icons=>{
         return(
           <li key={icons.id}>
           <a href={icons.href} target="_blank" className="nav-icon"
